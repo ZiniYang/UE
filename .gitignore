@@ -1,0 +1,35 @@
+# Python
+**pycache**/
+*.py[cod]
+*.class
+.ipynb_checkpoints/
+# Configuration and model files
+*.yaml
+*.log
+*.pt
+# Experiment and temporary folders
+path/to/your/experiment/
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+# Build and distribution
+*.egg-info/
+dist/
+build/
+# IDE and system files
+.vs/
+.idea/
+.vscode/
+.DS_Store
+# Large data files
+*.h5
+*.zip
+*.tar.gz
+# Ignore files larger than 10MB
+**/path/to/your/experiment/folder/*
+*.pt
+*.log
+*.h5
+*.zip
+*.tar.gz
